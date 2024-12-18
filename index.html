@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <div class="logo">
+        <h1>Weather</h1>
+        <p>tagline goes here</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Live cameras</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="search-section">
+      <input type="text" id="city-input" placeholder="Find your location...">
+      <button id="search-button">Find</button>
+    </section>
+    <section id="weather-display">
+      <div class="weather-card main">
+        <h2>Saturday</h2>
+        <h3>14 December</h3>
+        <h1 class="temp">17.4°C</h1>
+        <div class="icon">
+          <i class="fas fa-sun fa-3x text-warning"></i>
+        </div>
+        <p class="desc">Sunny</p>
+        <div class="details">
+          <span>Humidity: 20%</span>
+          <span>Wind: 18km/h</span>
+          <span>Direction: East</span>
+        </div>
+      </div>
+      <div class="weather-card">
+        <h2>Sunday</h2>
+        <h3>21.3°C</h3>
+        <p class="desc">Sunny</p>
+      </div>
+      <div class="weather-card">
+        <h2>Monday</h2>
+        <h3>22.2°C</h3>
+        <p class="desc">Sunny</p>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="subscribe">
+      <input type="email" placeholder="Enter your email to subscribe...">
+      <button>Subscribe</button>
+    </div>
+    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    <div class="social">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Pinterest</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
